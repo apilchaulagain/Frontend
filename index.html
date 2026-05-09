@@ -5,23 +5,28 @@
     <link href="./dist/output.css" rel="stylesheet">
 </head>
 
-<body class="bg-white">
-    <nav class="sticky top-0 bg-white/70 backdrop-blur-md text-lgr font-semibold">
-        <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
-            <button class="p-8 text-slate-600 hover:text-slate-950">Items</button>
-            <button class=" p-8 text-slate-600 hover:text-slate-950 ">Shop</button>
-            <button class="p-8 text-slate-600  hover:text-slate-950 ">Login</button>
+<body class="bg-white text-slate-800">
+
+    <!-- nav bar -->
+    <nav class="fixed top-4 left-1/2 -translate-x-1/2 z-50 bg-white/70 backdrop-blur-md shadow-md rounded-2xl">
+        <div class="max-w-7xl mx-auto flex justify-center text-sm font-semibold">
+            <button class="p-8 text-slate-500 hover:text-slate-950">Items</button>
+            <button class="p-8 text-slate-500 hover:text-slate-950">Shop</button>
+            <button class="p-8 text-slate-500 hover:text-slate-950">Login</button>
         </div>
     </nav>
-    <section class="flex flex-col items-center text-center py-10 ">
-        <div><img class=" " src="img/Screenshot 2026-05-05 213536.png " alt=" "></div>
-        <div>
-            <h1 class="font-logo letter-spacing tracking-logo uppercase text-4xl inline-block transform scale-x-100">
-                Mobite
-            </h1>
-        </div>
+
+    <!--logo section-->>
+    <section class="flex flex-col items-center text-center pt-36 pb-16 px-6">
+        <img src="img/Screenshot 2026-05-05 213536.png" alt="">
+        <h1 class="uppercase tracking-widest text-4xl font-semibold mb-4">Mobite</h1>
+        <p class="text-slate-500 max-w-sm leading-relaxed mb-8">
+            The smartest way to find, compare, and own the mobile device you actually want.
+        </p>
     </section>
-    <h2 class="flex justify-center text-3xl font-bold text-gray-500 text-opacity-50">Supported By</h2>
+
+    <!-- SUPPORTED BY -->
+    <h2 class="flex justify-center text-3xl font-bold text-slate-800">Supported By</h2>
     <section class="w-full flex justify-center py-10">
 
         <!-- Container -->
@@ -31,27 +36,39 @@
             <div class="flex animate-scroll gap-4 w-max">
 
                 <!-- First Set -->
-                <div class="box shadow-slate-600 "></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
+                <div class="box"><img class="w-full h-full object-cover" src="img/blender.png" alt="L0"></div>
+                <div class="box"><img class="w-full h-full object-cover" src="img/disccord.png" alt="L1"></div>
+                <div class="box"><img class="w-full h-full object-cover" src="img/instra.png" alt="L2"></div>
+                <div class="box"><img class="w-full h-full object-cover" src="img/pinterest.png" alt="L3"></div>
+                <div class="box"><img class="w-full h-full object-cover" src="img/unity.png" alt="l4"></div>
+                <div class="box"><img class="w-full h-full object-cover" src="img/vs.png" alt="L5"></div>
 
                 <!-- Duplicate Set -->
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
+                <div class="box"><img class="w-full h-full object-cover" src="img/blender.png" alt="L0"></div>
+                <div class="box"><img class="w-full h-full object-cover" src="img/disccord.png" alt="L1"></div>
+                <div class="box"><img class="w-full h-full object-cover" src="img/instra.png" alt="L2"></div>
+                <div class="box"><img class="w-full h-full object-cover" src="img/pinterest.png" alt="L3"></div>
+                <div class="box"><img class="w-full h-full object-cover" src="img/unity.png" alt="l4"></div>
+                <div class="box"><img class="w-full h-full object-cover" src="img/vs.png" alt="L5"></div>
 
             </div>
 
         </div>
 
     </section>
-    </section>
+    <!--Space-->
+    <div class="w-full h-40"></div>
+    <!-- FEATURES -->
+    <div class="relative w-[1100px]">
+        <h2 class="flex justify-center w-50 text-left text-4xl font-serif ">Why mobite??..</h2>
+        <p class="flex justify-center w-70 text-left text-3xl font-seri">The question is</p>
+        <h1 class="flex justify-center w-700 text-left text-lg font-seri"> why not</h1>
+    </div>
+    <!-- FOOTER -->
+    <footer class="text-center py-8 text-xs text-slate-400 border-t border-slate-100 ">
+        © 2026 Mobite. All rights reserved.
+    </footer>
+
 </body>
 
 </html>
