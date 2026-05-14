@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer components {
     .box {
-        @apply w-12 h-12 bg-gray-400 rounded-2xl shrink-0 flex-wrap;
+        @apply w-14 h-14 bg-gray-400 rounded-2xl shrink-0 flex-wrap;
     }
 }
 
@@ -19,4 +19,17 @@
     .animate-scroll {
         animation: scroll 12s linear infinite;
     }
+}
+
+@layer components {
+  .box {
+    /* Same shape as your scrolling boxes */
+    @apply w-14 h-14 rounded-l-2xl shrink-0 bg-gray-300 shad
+           flex items-center justify-center overflow-hidden;
+  }
+
+    .box img {
+    /* Make the image fill the box and keep proportions */
+    @apply w-full h-full object-cover;
+  }
 }
